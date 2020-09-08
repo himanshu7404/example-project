@@ -1,0 +1,19 @@
+header{
+    height:100px;
+    background-color:#3b5998;
+    width:100%;
+}
+body{
+    margin:0px;
+}
+section{
+    height:80vh;
+    background-image:linear-gradient(white,#d3d8e8);
+}
+header h1{
+    margin:0px;
+    color:white;
+}
+header h1,div,form{
+    display:inline-block;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="fb.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+</head>
+<style>
+    .pagination{
+        display:flex;
+        justify-content:center;
+    }
+    .pagination>a{
+        margin:8px 40px;
+        text-decoration:none;
+    }
+    .active{
+        background-color:chartreuse;
+        color:white;
+        font-weight:700;
+        font-size:19px;
+        padding:5px;
+
+    }
+</style>
+<body>
+    <div class="pagination">
+        <a href="forms.html" >Prev</a>
+        <a href="forms.html">1</a>
+        <a class="active" href="fb.html">2</a>
+        <a href="google.html">3</a>
+        <a href="internalcss.html">4</a>
+        <a href="lists.html">5</a>
+        <a href="google.html">Next</a>
+    </div>
+    <header>
+        <h1>facebook</h1>
+        <form>
+        <div id="email">
+                <p>
+                    Email or phone</p>
+               <input type="email" name="email">
+        </div>
+        <div id="pass">
+                  <p>Password</p>
+                  <input type="password" name="password">
+                  <span>Forgotten account?</span>
+        </div>
+        <input type="submit" value="Log In">
+    </form>
+    </header>
+    <section></section>    
+</body>
+</html>
